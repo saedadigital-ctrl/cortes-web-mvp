@@ -1,18 +1,20 @@
 # Python
 __pycache__/
-*.pyc
-.venv/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env
+.venv
+venv/
 
 # Node
 node_modules/
+.npm/
 .next/
-dist/
-
-# IDE
-.idea/
-.vscode/
-
-# Outros
+yarn.lock
+package-lock.json
 .DS_Store
-.env
-data/
+
+# Logs
+*.log
